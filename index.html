@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <title>Formula 1</title>
+</head>
+<body>
+    <div id="info">
+        <p>Saldo: <span id="saldo">100</span> R$</p>
+        <p>Aposta: <input type="number" id="aposta" min="5"> R$</p>
+        <p>Piloto: 
+            <select id="piloto">
+                <option value="corredor-1">Zeca</option>
+                <option value="corredor-2">João</option>
+                <option value="corredor-3">Zipão da Massa</option>
+                <option value="corredor-4">Javascripto</option>
+                <option value="corredor-5">Marcão</option>
+            </select>
+        </p>
+        <button onclick="apostar()">Apostar</button>
+    </div>
+
+    <div class="pista">
+        <img id="corredor-1" class="corredor" src="public/images/carro-de-corrida.png" alt="Carro 1">
+        <img id="corredor-2" class="corredor" src="public/images/carro-vermelho.png" alt="Carro 2">
+        <img id="corredor-3" class="corredor" src="public/images/carro-verde.png" alt="Carro 3">
+        <img id="corredor-4" class="corredor" src="public/images/carro-roxo.png" alt="Carro 4">
+        <img id="corredor-5" class="corredor" src="public/images/carro-azul.png" alt="Carro 5">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
